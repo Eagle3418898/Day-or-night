@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day or night</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script>
+        function change(){
+            if(document.body.classList.contains('Day')){
+                document.body.className = '';
+            } else {
+                document.body.className = 'Day';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="button" onclick="change()"></div>
+</body>
+</html>
